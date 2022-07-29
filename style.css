@@ -1,0 +1,94 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 900px;
+    margin: auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    height: 100px;
+}
+#logo-img{
+    float: left;
+    margin-right: 15px;
+}
+
+.spc{
+    padding-left: 15px;
+}
+.header-container::after{
+    position: absolute;
+    width: 900px;
+    height: 7px;
+    background:lightgray;
+    bottom: -4px;
+    content: "";
+}
+.intro-header{
+    padding-top:15px ;
+    padding-bottom: 15px;
+}
+.intro-header img{
+    padding-left: 870px;
+    height: 20px;
+ 
+}
+.intro-description{
+    padding-bottom: 10px;
+    position: relative;
+}
+.intro-img{
+    padding-bottom: 10px;
+}
+.intro-container::after{
+    position: absolute;
+    width: 900px;
+    height: 7px;
+    background:lightgray;
+    bottom: -520px;
+    content: "";
+}
+a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px 20px;
+    width: 170px;
+    height: 40px;
+    border-radius: 4px;
+    background: brown;
+    color: white;
+}
+.services-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 35px;
+}
+.services-container::after{
+    position: absolute;
+    width: 900px;
+    height: 2px;
+    background:lightgray;
+    bottom: -685px;
+    content: "";
+}
+#van-img{
+    float: left;
+}
+.copy-rights{
+    text-align: center;
+}
+.copy-rights img{
+    padding-bottom: 10px;
+}
